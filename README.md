@@ -199,7 +199,7 @@ There are a total of 21,987 reviews which make up the negative sentiment in rati
 - Out of the 9,413 negative reviews in rating number 1 4,136(44%) of them are from the author app version 4.73.0.3, and 9(10%) are from version 3.9.4.0.
 
 
-## Summary:
+# Results From Findings
 
 Based on the waze mobile app dataset we can tell that most of the user reviews have a very positive sentiment and are ranked within rating number 5.
 
