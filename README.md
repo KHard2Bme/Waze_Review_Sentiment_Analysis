@@ -41,7 +41,7 @@ The dataset covers user reviews regarding the Waze mobile app during the years 2
 In my analysis I explore and answer the following questions:
 
 1. From the distribution of ratings chart, which rating has the most reviews? Least reviews?
-2. From the distribution of sentiments chart, what are the number of reviews for each sentiment?
+2. From the distribution of sentiments chart, what are the number of reviews for each sentiment? Which has the most reviews?
 3. Based off the findings from the sentiment distribution across ratings chart, the negative sentiment is at its highest in rating number 1. How many reviews make up this sentiment?
 
 ### <h3 align="center">App Review Sentiments Analysis:<h3/>
@@ -84,12 +84,12 @@ In my analysis I explore and answer the following questions:
 
 ### [As you can see, the above distribution of ratings chart gives you a clear picture of how many reviews fall into each rating category (from 1 to 5)].
 
-### Question 2:   From the distribution of sentiments chart, What are the number of reviews for each sentiment?
+### Question 2:   From the distribution of sentiments chart, What are the number of reviews for each sentiment? Which has the most reviews?
 ![B](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/5d8d0a7a-22b0-4816-8aa2-04a252957ea7)
 
 ### [In addition to the app having high ratings, reviewers also had many positive words in the reviews for the app.]
 
-- The positive sentiment has a total of 522,765 reviews which equates to 67% of all reviews.
+- The positive sentiment has the most reviews and shows a total of 522,765 reviews which equates to 67% of all reviews.
 - The neutral sentiment has a total of 207,918 reviews which equates to 27% of all reviews.
 - The negative sentiment has a total of 44,861 reviews which equates to 6% of all reviews.
 
@@ -102,14 +102,16 @@ In my analysis I explore and answer the following questions:
 
 ![q3code](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/bd06fb86-c545-42c6-b625-18a46313e651)
 
-There are a total of 21,987 reviews which make up the negative sentiment in rating number 1.
+- There are a total of 21,987 reviews which make up the negative sentiment in rating number 1.
 
 ### <h3 align="center">App Review Sentiments Analysis:<h3/>
--  Let’s perform a text analysis of the waze_data dataset to identify common words or themes within each sentiment category.
+---
+### Let’s perform a text analysis of the waze_data dataset to identify common words or themes within each sentiment category.
+
 ![wc1p](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/0315c577-d2eb-41e5-9777-7122ab3f2551)
 ![wc1n](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/68705896-7828-4873-b540-747e1d559eb9)
 ![wc1ne](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/26bb99fd-7b44-4bec-ae00-c82ac3590c0d)
-
+### [As you can see, there are alot of positive words used in the review text for the positive sentiment.]
 
 ### Lets now take a look at two random author app versions to see how many reviews each has and how they compare with each other; 4.73.0.3 and 3.9.4.0.
 
@@ -117,8 +119,8 @@ There are a total of 21,987 reviews which make up the negative sentiment in rati
 ![D](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/5734672d-590e-4049-b398-680937bfb881)
 
 
-- version 3.9.4.0 has the most reviews being 28,448 which is 68% out of both versions.
-- version 4.73.0.3 has the least reviews being 13,578 which is 32% out of both versions.
+- version 3.9.4.0 has the most reviews being 28,448 which is 68% of both versions.
+- version 4.73.0.3 has the least reviews being 13,578 which is 32% of both versions.
 
 
 
@@ -130,11 +132,13 @@ There are a total of 21,987 reviews which make up the negative sentiment in rati
 ![q51229](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/d11ac3de-be60-4c85-b9f6-7e16ed8de153)
 
 
-- There are a total of 4,254 negative reviews within version 4.73.0.3 which is 78% out of both versions.
-- There are a total of 1,229 negative reviews within version 3.9.4.0 which is 22% out of both versions.
+- There are a total of 4,254 negative reviews within version 4.73.0.3 which is 78% of both versions.
+- There are a total of 1,229 negative reviews within version 3.9.4.0 which is 22% of both versions.
 
 ### <h3 align="center">App Review Sentiments Analysis:<h3/>
--  Let’s perform a text analysis on both author app versions 4.73.0.3 and 3.9.4.0 to identify common words or themes in the negative sentiment to see if there are any major differences.<br><br>
+---
+
+### Let’s now perform a text analysis on both author app versions 4.73.0.3 and 3.9.4.0 to identify common words or themes in the negative sentiment to see if there are any major differences.<br><br>
 
 <h3 align="center">(Author app version 4.73.0.3)<h3/>
  
