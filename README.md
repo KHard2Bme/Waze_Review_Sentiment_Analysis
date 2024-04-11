@@ -35,6 +35,42 @@ The primary dataset used for this analysis is the "WAZE_REVIEWS.csv" file obtain
 
 The dataset covers user reviews regarding the Waze mobile app during the years 2009 through 2023.<br>
 
+
+# App Review Sentiments Analysis
+---
+### Lets first explore the dataset by analyzing the distribution of ratings. It will provide insight into the overall sentiment of the reviews.<br>
+---
+
+![a](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/ba21b231-7bec-4b4b-a9bf-1b3abd3f5f3e)
+
+### As you can see, the above distribution of ratings chart gives you a clear picture of how many reviews fall into each rating category (from 1 to 5).
+
+### Lets now explore this dataset by analyzing the distribution of sentiments. It will give us a basic understanding of the general sentiment tendency in the reviews.<br>
+---
+
+![B](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/5d8d0a7a-22b0-4816-8aa2-04a252957ea7)
+
+### In addition to the app having high ratings, reviewers also had many positive words in the reviews for the app.
+
+### Lets now explore the relationship between the sentiments and the ratings. This analysis can help us understand whether there is a correlation between the sentiment of the text and the numerical rating. For this task, we can see how sentiments are distributed across different rating levels.
+---
+
+![C](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/a007a824-a75d-48f3-84c1-2b962f5e807e)
+
+### As you can see, most of the positive reviews fall within rating number 5 while most of the negative reviews fall within rating number 1.
+
+## There is definetly a correlation between the high amount of reviews placed within rating number 5 and the amount of reviews placed within the positive sentiment.
+
+### Let’s perform a text analysis of the waze_data dataset to identify common words or themes within each sentiment category.
+---
+
+![wc1p](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/0315c577-d2eb-41e5-9777-7122ab3f2551)
+![wc1n](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/68705896-7828-4873-b540-747e1d559eb9)
+![wc1ne](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/26bb99fd-7b44-4bec-ae00-c82ac3590c0d)
+
+### As you can see, there are alot of positive words used in the review text for the positive sentiment.
+
+
 # Exploratory Data Analysis
 ---
 <p>
@@ -43,18 +79,6 @@ In my analysis I explore and answer the following questions:
 1. From the distribution of ratings chart, which rating has the most reviews? Least reviews?
 2. From the distribution of sentiments chart, what are the number of reviews for each sentiment? Which has the most reviews?
 3. Based off the findings from the sentiment distribution across ratings chart, the negative sentiment is at its highest in rating number 1. How many reviews make up this sentiment?
-
-### <h3 align="center">App Review Sentiments Analysis:<h3/>
--  I will perform a text analysis of the waze_data dataset to identify common words or themes within each sentiment category.
--  The analysis involves examining the most frequently occurring words in positive, negative, and neutral reviews using a word cloud.<br><br>
-
-
-</p>
-
-
-<p>  
-
- 
 4. Based off the findings from the distribution of author apps versions chart, which version has the most reviews and which has the least?
 5. Based off the findings from the sentiment distribution across apps chart, version 4.73.0.3 has more negative sentiments than version 3.9.4.0. How many negative reviews are in this sentiment? How many negative reviews are in 3.9.4.0?
 
@@ -64,8 +88,6 @@ In my analysis I explore and answer the following questions:
 
 
 </p>
-
-  
   
 6. Based off the findings from the distribution of years for reviews chart, which three years contained the most reviews and which year had the least amount of reviews overall?
 7. Based off the findings from the sentiment distribution by year chart, the year with the most negative sentiments is 2021. How many negative reviews have  been placed and the percentage out of all negative sentiments? How many negative reviews are from author app versions 4.73.0.3 and 3.9.4.0? 
@@ -76,19 +98,12 @@ In my analysis I explore and answer the following questions:
 # Summary of Findings
 --- 
 ### Question 1: From the distribution of ratings chart, which rating has the most reviews? Least reviews?
-![a](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/ba21b231-7bec-4b4b-a9bf-1b3abd3f5f3e)
-
 - Rating number 5 has 523,774 reviews which makes up 67% of all the reviews.
 - Rating number 2 has 23,109 reviews which makes up only 3% of all the reviews.
 
 
-### [As you can see, the above distribution of ratings chart gives you a clear picture of how many reviews fall into each rating category (from 1 to 5)].
 
 ### Question 2:   From the distribution of sentiments chart, What are the number of reviews for each sentiment? Which has the most reviews?
-![B](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/5d8d0a7a-22b0-4816-8aa2-04a252957ea7)
-
-### [In addition to the app having high ratings, reviewers also had many positive words in the reviews for the app.]
-
 - The positive sentiment has the most reviews and shows a total of 522,765 reviews which equates to 67% of all reviews.
 - The neutral sentiment has a total of 207,918 reviews which equates to 27% of all reviews.
 - The negative sentiment has a total of 44,861 reviews which equates to 6% of all reviews.
@@ -96,22 +111,10 @@ In my analysis I explore and answer the following questions:
 
 
 ### Question 3: Based off the findings from the sentiment distribution across ratings chart, the negative sentiment is at its highest in rating number 1. How many reviews make up this sentiment?
-![C](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/a007a824-a75d-48f3-84c1-2b962f5e807e)
-
-### [As you can see, most of the positive reviews fall within rating number 5 but most of the negative reviews fall within rating number 1].
-
 ![q3code](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/bd06fb86-c545-42c6-b625-18a46313e651)
 
 - There are a total of 21,987 reviews which make up the negative sentiment in rating number 1.
 
-### <h3 align="center">App Review Sentiments Analysis:<h3/>
----
-### Let’s perform a text analysis of the waze_data dataset to identify common words or themes within each sentiment category.
-
-![wc1p](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/0315c577-d2eb-41e5-9777-7122ab3f2551)
-![wc1n](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/68705896-7828-4873-b540-747e1d559eb9)
-![wc1ne](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/26bb99fd-7b44-4bec-ae00-c82ac3590c0d)
-### [As you can see, there are alot of positive words used in the review text for the positive sentiment.]
 
 ### Lets now take a look at two random author app versions to see how many reviews each has and how they compare with each other; 4.73.0.3 and 3.9.4.0.
 
@@ -204,6 +207,9 @@ In my analysis I explore and answer the following questions:
 
 
 # Results From Findings
+
+
+I originaly chose this dataset so that i could perform a Sentiment Analysis on opinions expressed in the text, to determine viewer's attitude towards the Waze mobile app, but after spending time performing an exploratory data analysis on the data I discovered a few interesting facts regarding app versions and years the reviews were submitted by.
 
 Based on the waze mobile app dataset we can tell that most of the user reviews have a very positive sentiment and are ranked within rating number 5.
 
