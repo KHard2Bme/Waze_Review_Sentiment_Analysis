@@ -35,6 +35,8 @@ The primary dataset used for this analysis is the "WAZE_REVIEWS.csv" file obtain
 
 The dataset covers user reviews regarding the Waze mobile app during the years 2009 through 2023.<br>
 
+I am also using website uptodown.com for obtaining dates each Waze author app version was released; https://waze.en.uptodown.com/android/versions).<b>
+
 
 # App Review Sentiments Analysis
 ---
@@ -68,9 +70,9 @@ The dataset covers user reviews regarding the Waze mobile app during the years 2
 
 ### As you can see, most of the positive reviews fall within rating number 5 while most of the negative reviews fall within rating number 1.
 
-## There is definetly a correlation between the high amount of reviews placed within rating number 5 and the amount of reviews placed within the positive sentiment.
+## There is definetly a correlation between the large amount of reviews ranked within rating number 5 and the amount of reviews placed within the positive sentiment.
 
-### Let’s perform a text analysis of the waze_data dataset to identify common words or themes within each sentiment category.
+### Let’s perform a text analysis of the dataset to identify common words or themes within each sentiment category.
 ---
 
 ![wc1p](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/0315c577-d2eb-41e5-9777-7122ab3f2551)
