@@ -49,6 +49,9 @@ The dataset covers user reviews regarding the Waze mobile app during the years 2
 
  >note: TextBlob provides a polarity score ranging from -1 (very negative) to 1 (very positive) for a given text. We can use this score to classify each review’s sentiment as positive, neutral, or negative.
 
+![sentiment_labels](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/8d8893cb-bc1c-4370-88ff-f208bd0781c9)
+
+
 ### The dataset now includes sentiment labels for each review, classified as Positive, Negative, or Neutral based on the polarity score calculated by TextBlob.
 
 ### Lets now explore this dataset by analyzing the distribution of sentiments. It will give us a basic understanding of the general sentiment tendency in the reviews.<br>
