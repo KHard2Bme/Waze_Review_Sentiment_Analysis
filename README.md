@@ -45,6 +45,12 @@ The dataset covers user reviews regarding the Waze mobile app during the years 2
 
 ### As you can see, the above distribution of ratings chart gives you a clear picture of how many reviews fall into each rating category (from 1 to 5).
 
+### The next step is to label the data with sentiments. We can use Textblob for this task.
+
+ >note: TextBlob provides a polarity score ranging from -1 (very negative) to 1 (very positive) for a given text. We can use this score to classify each review’s sentiment as positive, neutral, or negative.
+
+### The dataset now includes sentiment labels for each review, classified as Positive, Negative, or Neutral based on the polarity score calculated by TextBlob.
+
 ### Lets now explore this dataset by analyzing the distribution of sentiments. It will give us a basic understanding of the general sentiment tendency in the reviews.<br>
 ---
 
