@@ -35,7 +35,7 @@ The primary dataset used for this analysis is the "WAZE_REVIEWS.csv" file obtain
 
 The dataset covers user reviews regarding the Waze mobile app during the years 2009 through 2023.<br>
 
-I am also using website uptodown.com for obtaining dates each Waze author app version was released; https://waze.en.uptodown.com/android/versions).<b>
+I am also using website uptodown.com for verification of dates each Waze author app version was released on; https://waze.en.uptodown.com/android/versions).<b>
 
 
 # App Review Sentiments Analysis
