@@ -134,11 +134,13 @@ In my analysis I explore and answer the following questions:
 
 ### Question 6: Based off the findings from the distribution of sentiments across the top 17 app versions chart, which version has the most user reviews that are negatively ranked and how many are there?
 ![sentacrosstop17](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/8020848e-f313-4075-a8b6-92ee904d0c7a)
+![top17neg](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/0de3afdd-7ad6-4e6c-b7d3-5bdec84dc63a)
 
 - Version 4.73.0.3 has the most reviews that are negatively ranked with a total of 4,254, which is 11% out of all negative sentiments.
 
 ### Question 7:  Based off the findings from the distribution of years by user reviews chart, which year contains the most user reviews and which has the least overall?
 ![yearsbyuserreview](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/c430e6f1-f629-4162-8ac9-a326dbf2397b)
+![allyears](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/60b4c875-2643-4580-9060-341f614e773f)
 
 - Year 2016 has a total of 118,139 reviews which equates to 17% of all reviews in a 15 year span.
 - Year 2009 has a total of 240 reviews which equates to 4% of all reviews in a 15 year span.
@@ -152,12 +154,21 @@ In my analysis I explore and answer the following questions:
 - For the year 2021, there was a total of 8,182 reviews placed which is 21% of all the negative sentiments.
   
 ### Question 9:  Out of the 8,182 negative reviews placed in year 2021, how many are from app version 4.73.0.3?
+![47303neg](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/6cf0acce-79d3-4f0e-bfad-52c48bdc82ca)
+
 - Out of the 8,182 negative reviews in year 2021 approximatley 4,244 (52%) of them are from the author app version 4.73.0.3.
   
 ### Question 10:  Out of the 7,326 negative user reviews in rating number 1 for year 2021, how many are from app version 4.73.0.3?
+![Q10a](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/52b1e246-abf4-492e-85b2-6d5941abe688)
+![Q10b](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/0d2b59db-a74b-455c-84d6-2f8d65a0cbc2)
+
 - Out of the 7,326 negative reviews in rating number 1 for year 2021, approximatley 4,136 (56%) of them are from the author app version 4.73.0.3.
   
 ### Question 11: Based off the findings from the year distribution by ratings chart, We see that in rating number 1 there is a large percent of user reviews from year 2021 than any other year. How many user reviews make up the positive, negative and neutral sentiments?
+![2021rating1pos](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/37c47c77-1a9a-4a0c-8353-e646d7ff24a9)
+![2021rating1neg](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/252f4abc-8330-4c40-af1e-7012145b8fda)
+![2021rating1neut](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/e7f85203-7049-4c9a-93ca-569a8896e837)
+
 - For positive sentiments the total number is 1,707 which equates to 9% for 2021.
 - For negative sentiments the total number is 7,326 which equates to 38% for 2021.
 - For neutral sentiments the total number is 10,048 which equates to 53% for 2021.
