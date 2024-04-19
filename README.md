@@ -42,8 +42,9 @@ I am also using website uptodown.com for verification of dates each Waze author 
 ---
 ### Lets first explore the dataset by analyzing the distribution of ratings. It will provide insight into the overall sentiment of the reviews.<br>
 ---
+![ratings](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/f9439489-43fb-4538-a572-51aaec3152e2)
 
-![a](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/ba21b231-7bec-4b4b-a9bf-1b3abd3f5f3e)
+
 
 ### As you can see, the above distribution of ratings chart gives you a clear picture of how many reviews fall into each rating category (from 1 to 5).
 
@@ -51,33 +52,31 @@ I am also using website uptodown.com for verification of dates each Waze author 
 
  >note: TextBlob provides a polarity score ranging from -1 (very negative) to 1 (very positive) for a given text. We can use this score to classify each review’s sentiment as positive, neutral, or negative.
 
-![sentiment_labels](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/8d8893cb-bc1c-4370-88ff-f208bd0781c9)
+![sentlabels](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/30054ed1-189a-4be4-ac94-870ca95f641b)
+
 
 
 ### The dataset now includes sentiment labels for each review, classified as Positive, Negative, or Neutral based on the polarity score calculated by TextBlob.
 
 ### Lets now explore this dataset by analyzing the distribution of sentiments. It will give us a basic understanding of the general sentiment tendency in the reviews.<br>
 ---
+![sents](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/3ec64920-1b98-4930-80a5-fd531573d960)
 
-![B](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/5d8d0a7a-22b0-4816-8aa2-04a252957ea7)
 
 ### In addition to the app having high ratings, reviewers also had many positive words in the reviews for the app.
 
 ### Lets now explore the relationship between the sentiments and the ratings. This analysis can help us understand whether there is a correlation between the sentiment of the text and the numerical rating. For this task, we can see how sentiments are distributed across different rating levels.
 ---
+![sentsbyrate](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/a6544ea5-6e82-470a-b262-3c0c349ce86c)
 
-![C](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/a007a824-a75d-48f3-84c1-2b962f5e807e)
 
-### As you can see, most of the positive reviews fall within rating number 5 while most of the negative reviews fall within rating number 1.
-
-## There is definetly a correlation between the large amount of reviews ranked within rating number 5 and the amount of reviews placed within the positive sentiment.
+### As you can see, most of the positive reviews fall within rating number 5 and most of the negative reviews fall within rating number 1. So there is a correlation between the sentiment of the text and the numerical rating.
 
 ### Let’s perform a text analysis of the dataset to identify common words or themes within each sentiment category.
 ---
-
-![wc1p](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/0315c577-d2eb-41e5-9777-7122ab3f2551)
-![wc1n](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/68705896-7828-4873-b540-747e1d559eb9)
-![wc1ne](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/26bb99fd-7b44-4bec-ae00-c82ac3590c0d)
+![textblobpos](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/4a2dd42a-76b5-459b-9570-de83e1d9464c)
+![textblobneg](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/a25e0aa7-4cee-486a-8701-1dab73f319d0)
+![textblobneu](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/e1ce06f4-ff81-4b02-84cb-0d714f9f960c)
 
 ### As you can see, there are alot of positive words used in the review text for the positive sentiment.
 
