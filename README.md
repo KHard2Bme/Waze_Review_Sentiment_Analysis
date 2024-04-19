@@ -108,10 +108,14 @@ In my analysis I explore and answer the following questions:
 # Summary of Findings
 --- 
 ### Question 1: From the distribution of ratings chart, which rating has the most reviews? Least reviews?
+![Q1a](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/5eb23ef6-d310-4809-99c9-0365b7640770)
+
 - Rating number 5 has 466,125 reviews which makes up 67% of all the reviews.
 - Rating number 2 has 20,473 reviews which makes up only 3% of all the reviews.
 
 ### Question 2:   From the distribution of sentiments chart, What are the number of reviews for each sentiment? Which has the most reviews?
+![Q2](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/a8cc75bd-71df-455c-821a-29cd2e619d7f)
+
 - The positive sentiment has a total of 472,194 reviews which equates to 68% of all reviews.
 - The neutral sentiment has a total of 181,093 reviews which equates to 26% of all reviews.
 - The negative sentiment has a total of 38,851 reviews which equates to 6% of all reviews.
@@ -179,6 +183,13 @@ In my analysis I explore and answer the following questions:
 - For negative sentiments the total number is 7,326 which equates to 38% for 2021.
 - For neutral sentiments the total number is 10,048 which equates to 53% for 2021.
 
+### [Figure 1] -  List of negative user reviews starting from app version 4.73.0.3 ( released on April 6, 2021) to version 4.99.1.1 ( released on November 16, 2023)
+---
+![releasevers1](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/a77280a9-40ec-429f-a64d-54a6c11104ab)
+![releasevers2](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/1a3af5ac-a6f0-4df4-b145-86810a2c0d3e)
+![releasevers3](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/56a2420b-234c-40ea-b7f6-ed0633ed8887)
+
+
 
 # Results From Findings
 ---
@@ -200,16 +211,13 @@ So, as you can see 2021 was the year which had the most reviews categorized as n
 
 if I were to read each negative review (about 4,200) I would most likely be able to get an understanding of the issues plaguing users, but instead i chose to gauge the count of negative reviews captured from every app version released after version 4.73.0.3.
 
-If you look at the below report; <b>figure 1<b>, you can see that as the version increased the count of negative sentiments drastically decreased with a few minor up and down fluctuations.
+If you look at the app versions report; Figure 1, you will see that as the release versions increase the count of negative sentiments decreases, with an occasional up and down fluctuation.
 
 It appears that Management has paid close attention to many of the user concerns, and resolved these issues over time, or maybe the app just had alot of defects.
 
 Either way, the folks at Waze were able to resolve many of the issues resulting in them having most of their user reviews ranked at number 5 and having a very positive sentiment overall.
 
-### Figure 1
-![59versions1](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/1a984d50-8cbe-44fc-b0d8-252aece674b0)
-![59versions2](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/d07f064c-dfa4-4624-991b-30e230bdc759)
-![59versions3](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/f416abc9-57ff-4f71-bdfb-748778981c60)
+
 
 
 
