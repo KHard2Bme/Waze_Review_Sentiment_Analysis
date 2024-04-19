@@ -215,9 +215,9 @@ if I were to read each negative review (about 4,200) I would most likely be able
 
 If you look at the app versions report; Figure 1, you will see that as the release versions increase the count of negative sentiments decreases, with an occasional up and down fluctuation.
 
-It appears that Management has paid close attention to many of the user concerns, and resolved these issues over time, or maybe the app just had alot of defects.
+It appears that Management has paid close attention to many of the user concerns, and resolved these issues over time.
 
-Either way, the folks at Waze were able to resolve many of the issues resulting in them having most of their user reviews ranked at number 5 and having a very positive sentiment overall.
+In the end, the folks at Waze were able to resolve many of the issues at hand, resulting in them having most of their user reviews ranked at number 5 and having a very positive sentiment overall.
 
 
 
