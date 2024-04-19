@@ -48,7 +48,7 @@ I am also using website uptodown.com for verification of dates each Waze author 
 
 
 
-### As you can see, the above distribution of ratings chart gives you a clear picture of how many reviews fall into each rating category (from 1 to 5).
+### As you can see, the above distribution of ratings chart gives us a clear picture of how many reviews fall into each rating category (from 1 to 5).
 
 ### The next step is to label the data with sentiments. We can use Textblob for this task.
 
@@ -89,7 +89,7 @@ I am also using website uptodown.com for verification of dates each Waze author 
 In my analysis I explore and answer the following questions:
 
 1. From the distribution of ratings chart, which rating has the most user reviews? Least user reviews?
-2. From the distribution of sentiments chart, What are the total number of user reviews from each sentiment? 
+2. From the distribution of sentiments chart, what are the total number of user reviews from each sentiment? 
 3. Based off the findings from the sentiment distribution across ratings chart, the negative sentiment is at its highest in rating number 1.
   How many reviews make up his sentimtent?
 4. What app version has the most user reviews?
@@ -114,7 +114,7 @@ In my analysis I explore and answer the following questions:
 - Rating number 5 has 466,125 reviews which makes up 67% of all the reviews.
 - Rating number 2 has 20,473 reviews which makes up only 3% of all the reviews.
 
-### Question 2:   From the distribution of sentiments chart, What are the number of reviews for each sentiment? Which has the most reviews?
+### Question 2:   From the distribution of sentiments chart, what are the number of reviews for each sentiment? Which has the most reviews?
 ![Q2](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/a8cc75bd-71df-455c-821a-29cd2e619d7f)
 
 - The positive sentiment has a total of 472,194 reviews which equates to 68% of all reviews.
