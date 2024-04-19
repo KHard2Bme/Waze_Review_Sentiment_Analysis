@@ -9,7 +9,7 @@
 - [App Review Sentiments Analysis](#app-review-sentiments-analysis)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Summary of Findings](#summary-of-findings)
-- [Figure.1](#Figure-1)
+- [Figure 1](#Figure-1)
 - [Results from Findings](#results-from-findings)
 
 
@@ -184,7 +184,7 @@ In my analysis I explore and answer the following questions:
 - For negative sentiments the total number is 7,326 which equates to 38% for 2021.
 - For neutral sentiments the total number is 10,048 which equates to 53% for 2021.
 
-# Figure.1  
+# Figure 1  
 List of negative user reviews starting from app version 4.73.0.3 ( released on April 6, 2021) to version 4.99.1.1 ( released on November 16, 2023)
 ---
 ![releasevers1](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/a77280a9-40ec-429f-a64d-54a6c11104ab)
@@ -213,7 +213,7 @@ So, as you can see 2021 was the year which had the most reviews categorized as n
 
 if I were to read each negative review (about 4,200) I would most likely be able to get an understanding of the issues plaguing users, but instead i chose to gauge the count of negative reviews captured from every app version released after version 4.73.0.3.
 
-If you look at the app versions report; Figure.1, you will see that as the release versions increase the count of negative sentiments decreases, with an occasional up and down fluctuation.
+If you look at the app versions report; Figure 1, you will see that as the release versions increase the count of negative sentiments decreases, with an occasional up and down fluctuation.
 
 It appears that Management has paid close attention to many of the user concerns, and resolved these issues over time, or maybe the app just had alot of defects.
 
