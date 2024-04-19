@@ -9,7 +9,7 @@
 - [App Review Sentiments Analysis](#app-review-sentiments-analysis)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Summary of Findings](#summary-of-findings)
-- [Figure 1](#figure 1)
+- [Figure.1](#Figure-1)
 - [Results from Findings](#results-from-findings)
 
 
