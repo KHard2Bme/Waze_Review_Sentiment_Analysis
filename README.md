@@ -215,13 +215,13 @@ Of those negatively categorized, year 2021 had the most user reviews than any ot
 
 So, as you can see 2021 was the year which had the most reviews categorized as negative, with more than 50% of the users being on app version 4.73.0.3 (released on April 6, 2021). What exactly were the major issues affecting this app?
 
-if I were to read each negative review (about 4,200) I would most likely understand what specific issues there are plaguing users, but instead i chose to gauge the count of negative reviews captured from every app version released after version 4.73.0.3.
+if I were to read each negative review (about 4,200) I would most likely understand what specific issues there were plaguing users, but instead i chose to gauge the count of negative reviews captured from every app version released after version 4.73.0.3.
 
 If you look at the app versions report; Figure 1, you will see that as the release versions increase the count of negative sentiments decreases (trend), with an occasional up and down fluctuation.
 
-It appears that Management has paid close attention to many of the user concerns and resolved these issues over time within newer releases.
+It appears that Management has paid close attention to many of the user concerns and resolved them over time within newer releases.
 
-In the end, the folks at Waze were able to respond quickly to this issue, resulting in them having most of their user reviews ranked high at number 5 and having a very positive sentiment overall.
+In the end, the folks at Waze were able to respond quickly to this issue, resulting in most of their user reviews ranking high at number 5 and having a very positive sentiment overall.
 
 
 
