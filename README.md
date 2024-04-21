@@ -93,8 +93,8 @@ In my analysis I explore and answer the following questions:
 3. Based off the findings from the sentiment distribution across ratings chart, the negative sentiment is at its highest in rating number 1.
   How many reviews make up his sentimtent?
 4. What app version has the most user reviews?
-5. Are there any major differences in sentiments between app versions 3.9.4.0 and 4.99.1.1? If so, what are they?
-6. Based off the findings from the distribution of sentiments across the top 17 app versions chart, which version has the most user reviews that are negatively ranked and how many are there?
+5. Are there any major differences in sentiments between app versions 3.9.4.0 and 4.99.1.1(latest app version in dataset)? If so, what are they?
+6. Based off the findings from the distribution of negative sentiments across the top 17 app versions chart, which version has the most user reviews that are negatively ranked and how many are there?
 7. Based off the findings from the distribution of years by user reviews chart, which year contains the most user reviews and which has the least overall?
 8. Based off the findings from the sentiment distribution by year chart, the year with the most negative sentiments is 2021.
    How many negative user reviews were placed and the percentage out of all negative sentiments?
@@ -132,13 +132,15 @@ In my analysis I explore and answer the following questions:
 
 - App version 3.9.4.0 has the most user reviews than any other version at 28,448 (released <b>March 11, 2015<b>).
 
-### Question 5:  Are there any major differences in sentiments between app versions 3.9.4.0 and 4.99.1.1? If so, what are they?
+### Question 5:  Are there any major differences in sentiments between app versions 3.9.4.0 and 4.99.1.1(latest app version in dataset)? If so, what are they?
 ![pie3940](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/c4c55cbd-721f-46d9-ab23-041634ee8862)
 ![pie49911](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/a4d8cfb4-53cf-4008-a0bd-3cb57ff8e76c)
 
+ >note: The latest app version in the dataset is 4.99.1.1 which was released on <b>November 16, 2023.<b>
+
 - Both app versions have a large percentage of positive sentiments overall. Version 3.9.4.0 has a noticable lead, showing 69% of its user reviews being positive as opposed to version 4.99.1.1 showing only 42%.
 
-### Question 6: Based off the findings from the distribution of sentiments across the top 17 app versions chart, which version has the most user reviews that are negatively ranked and how many are there?
+### Question 6: Based off the findings from the distribution of negative sentiments across the top 17 app versions chart, which version has the most user reviews that are negatively ranked and how many are there?
 ![sentacrosstop17](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/8020848e-f313-4075-a8b6-92ee904d0c7a)
 ![top17neg](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/0de3afdd-7ad6-4e6c-b7d3-5bdec84dc63a)
 
@@ -179,6 +181,8 @@ In my analysis I explore and answer the following questions:
 ![2021rating1pos](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/37c47c77-1a9a-4a0c-8353-e646d7ff24a9)
 ![2021rating1neg](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/252f4abc-8330-4c40-af1e-7012145b8fda)
 ![2021rating1neut](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/e7f85203-7049-4c9a-93ca-569a8896e837)
+![Q11pie](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/b17dea89-bc44-40ac-8f90-bc0d693efad4)
+
 
 - For positive sentiments the total number is 1,707 which equates to 9% for 2021.
 - For negative sentiments the total number is 7,326 which equates to 38% for 2021.
@@ -211,13 +215,13 @@ Of those negatively categorized, year 2021 had the most user reviews than any ot
 
 So, as you can see 2021 was the year which had the most reviews categorized as negative, with more than 50% of the users being on app version 4.73.0.3 (released on April 6, 2021). What exactly were the major issues affecting this app?
 
-if I were to read each negative review (about 4,200) I would most likely be able to get an understanding of the issues plaguing users, but instead i chose to gauge the count of negative reviews captured from every app version released after version 4.73.0.3.
+if I were to read each negative review (about 4,200) I would most likely understand what specific issues there are plaguing users, but instead i chose to gauge the count of negative reviews captured from every app version released after version 4.73.0.3.
 
-If you look at the app versions report; Figure 1, you will see that as the release versions increase the count of negative sentiments decreases, with an occasional up and down fluctuation.
+If you look at the app versions report; Figure 1, you will see that as the release versions increase the count of negative sentiments decreases (trend), with an occasional up and down fluctuation.
 
-It appears that Management has paid close attention to many of the user concerns, and resolved these issues over time.
+It appears that Management has paid close attention to many of the user concerns and resolved these issues over time within newer releases.
 
-In the end, the folks at Waze were able to resolve many of the issues at hand, resulting in them having most of their user reviews ranked at number 5 and having a very positive sentiment overall.
+In the end, the folks at Waze were able to respond quickly to this issue, resulting in them having most of their user reviews ranked high at number 5 and having a very positive sentiment overall.
 
 
 
