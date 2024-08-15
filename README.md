@@ -22,7 +22,7 @@ I will use data analysis techniques to determine whether the sentiments in these
 I will also perform Exploratory Data Analysis on the dataset to answer a few questions derived along the way.</b>
 
 
- >note: The App Review Sentiment Analysis and EDA steps will be shown in detail within the Jupyter Notebook.
+ >note: The App Review Sentiment Analysis and EDA steps will be shown in detail within the Waze Review Sentiment Analysis.ipynb Notebook.
 
 
 # Python Libraries Used
@@ -145,7 +145,7 @@ In my analysis I explore and answer the following questions:
 - Both app versions have a large percentage of positive sentiments overall. Version 3.9.4.0 has a noticable lead, showing 69% of its user reviews being positive as opposed to version 4.99.1.1 showing only 42%.
 
 ### Question 6: Based off the negative sentiment distribution across Top 10 app versions chart, which version has the most reviews that are negatively ranked and how many are there?
-![sentacrosstop17](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/8020848e-f313-4075-a8b6-92ee904d0c7a)
+![6a](https://github.com/user-attachments/assets/7f0dfaf7-c329-4eff-8d86-0049953748ed)
 ![6](https://github.com/user-attachments/assets/8f6026c5-586a-43e8-a8fc-e71da77a85d6)
 
 
