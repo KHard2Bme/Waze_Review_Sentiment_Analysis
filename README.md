@@ -203,7 +203,7 @@ I originaly chose this dataset so that i could perform a Sentiment Analysis on o
 
 Based on the waze mobile app dataset we can tell that most of the user reviews were ranked high at rating number 5, in addition to having a very positive overall sentiment.
 
-This is very good news for Management and Application Development Teams, but we also need to look at high reviews that fall within rating number 1, especially those categorized within the negative sentiment. This will help us to understand what the pain points are and then fixes can be applied to next releases.
+This is very good news for Management and Application Development Teams, but we also need to look at high reviews that fall within rating number 1, especially those categorized within the negative sentiment. This will help us to understand what the pain points are and what can be done to fix the issue in next releases.
 
 In regards to user reviews ranked within rating number 1, 31% (17,758) of these are categorized as having a negative sentiment.
 
