@@ -90,13 +90,13 @@ I am also using website uptodown.com for verification of dates each Waze author 
 In my analysis I explore and answer the following questions:
 
 1. From the distribution of ratings chart, which rating has the most user reviews? Least user reviews?
-2. From the distribution of sentiments chart, what are the total number of user reviews from each sentiment? 
+2. From the distribution of sentiments chart, what are the total number of reviews for each sentiment?
 3. Based off the sentiment distribution across ratings chart, the negative sentiment is at its highest in rating number 1. 
    How many reviews make up this sentiment?
-4. What app version has the most user reviews?
-5. Are there any major differences in sentiments between app versions 3.9.4.0 and 4.99.1.1(latest app version in dataset)? If so, what are they?
+4. How many app versions are there and what app version has the most user reviews?
+5. Are there any major differences in sentiment distribution between app versions 3.9.4.0 and 4.99.1.1? If so, what are they?
 6. Based off the negative sentiment distribution across Top 10 app versions chart, which version has the most reviews that are negatively ranked and how many are there?
-7. How many years is the dataset comprised of? 
+7. The dataset is made up of how many years? 
    Based off the distribution of years by user reviews chart, which year contains the most reviews and which has the least overall?
 8. Based off the sentiment distribution by year chart, how many negative reviews were placed in year 2021 and what is the percentage out of all negative sentiments?
 9.  Out of the 8,182 negative reviews placed in year 2021, how many are from app version 4.73.0.3?
@@ -117,7 +117,7 @@ In my analysis I explore and answer the following questions:
 - Rating number 5 has 466,125 reviews which makes up 67% of all the reviews.
 - Rating number 2 has 20,473 reviews which makes up only 3% of all the reviews.
 
-### Question 2: From the distribution of sentiments chart, what are the number of reviews for each sentiment? Which has the most reviews?
+### Question 2: From the distribution of sentiments chart, what are the total number of reviews for each sentiment?
 ![Q2](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/a8cc75bd-71df-455c-821a-29cd2e619d7f)
 
 - The positive sentiment has a total of 472,194 reviews which equates to 68% of all reviews.
@@ -129,14 +129,16 @@ In my analysis I explore and answer the following questions:
 ![3](https://github.com/user-attachments/assets/75d91040-cd7c-4c82-ac37-b8625738b73f)
 ![3a](https://github.com/user-attachments/assets/99793ddf-1486-4a16-8ad0-249f06fed3cd)
 
-- There are a total of 17,758 reviews which make up the negative sentiment in rating number 1 (this makes up 46% out of all negative sentiments).
+- There are a total of 17,758 reviews which make up the negative sentiment in rating number 1 (this makes up 31% of all negative sentiments).
 
-### Question 4: What app version has the most user reviews?
+### Question 4:  How many app versions are there and what app version has the most user reviews?
+
+![4a](https://github.com/user-attachments/assets/44bb1b16-012b-4337-92d9-70e271857893)
 ![4](https://github.com/user-attachments/assets/407c7fad-6b3f-40f9-9a93-ac8d40a2db3f)
 
-- App version 3.9.4.0 has the most user reviews than any other version at 28,448 (released <b>March 11, 2015<b>).
+- There are a total of 324 app versions, and app version 3.9.4.0 has the most user reviews than any other at 28,448 (released <b>March 11, 2015<b>).
 
-### Question 5: Are there any major differences in sentiments between app versions 3.9.4.0 and 4.99.1.1(latest app version in dataset)? If so, what are they?
+### Question 5:  Are there any major differences in sentiment distribution between app versions 3.9.4.0 and 4.99.1.1? If so, what are they?
 ![pie3940](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/c4c55cbd-721f-46d9-ab23-041634ee8862)
 ![pie49911](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/a4d8cfb4-53cf-4008-a0bd-3cb57ff8e76c)
 
@@ -149,9 +151,9 @@ In my analysis I explore and answer the following questions:
 ![6](https://github.com/user-attachments/assets/8f6026c5-586a-43e8-a8fc-e71da77a85d6)
 
 
-- Version 4.73.0.3 has the most reviews that are negatively ranked with a total of 4,254, which is 11% out of all negative sentiments.
+- The app version with the most negative reviews is 4.73.0.3, which is 42% (4,254) of the top 10 app versions and 11% (4,254) of entire dataset. 
 
-### Question 7: How many years is the dataset comprised of? Based off the distribution of years by user reviews chart, which year contains the most reviews and which has the least overall?
+### Question 7: The dataset is made up of how many years? Based off the distribution of years by user reviews chart, which year contains the most reviews and which has the least overall?
 ![yearsbyuserreview](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/c430e6f1-f629-4162-8ac9-a326dbf2397b)
 ![7](https://github.com/user-attachments/assets/c546b6d1-426d-4d9f-99ca-ad761346ad6d)
 
