@@ -15,7 +15,7 @@
 
 # Project Overview
 ---
-I will be performing an App Review Sentiment Analysis on the Waze mobile app dataset so as to evaluate and understand the sentiments expressed in user reviews over a 15 year span; 2009 through 2023.</b> 
+I will be performing an App Review Sentiment Analysis on the Waze mobile app dataset so that I can evaluate and understand the sentiments expressed in user reviews over a 15 year span; 2009 through 2023.</b> 
 
 I will use data analysis techniques to determine whether the sentiments in these reviews are positive, negative, or neutral.</b>
 
@@ -223,13 +223,13 @@ Of those negatively categorized, year 2021 had the most user reviews than any ot
 
 So, as you can see 2021 was the year which had the most reviews categorized as negative, with more than 50% of the users being on app version 4.73.0.3 (released on April 6, 2021). What exactly were the major issues affecting this app?
 
-if I were to read each negative review (about 4,200) I would most likely understand what specific issues there were plaguing users, but instead i chose to gauge the count of negative reviews captured from every app version released after version 4.73.0.3.
+if I were to read each negative review pertaining to app version 4.73.0.3 I would most likely understand each issue plaguing users, but instead i chose to gauge the count of negative reviews captured from all newly released versions.
 
-If you look at the app versions report; Figure 1, you will see that as the release versions increase the count of negative sentiments decreases (trend), with an occasional up and down fluctuation.
+If you look at the app versions report; Figure 1, you will see that as newer releases came out the count of negative sentiments decreased over time; with an occasional up and down fluctuation.
 
-It appears that Management has paid close attention to many of the user concerns and resolved them over time within newer releases.
+Management has paid close attention to many of the user concerns and resolved a majority of them over time within newer releases.
 
-In the end, the folks at Waze were able to respond quickly to this issue, resulting in most of their user reviews ranking high at number 5 and having a very positive sentiment overall.
+In the end, the folks at Waze were able to respond quickly to these complaints, resulting in their most recent reviews ranking high at number 5 and having a very positive sentiment overall.
 
 
 
