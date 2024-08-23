@@ -209,11 +209,13 @@ List of negative user reviews starting from app version 4.73.0.3 ( released on A
 
 # Results From Findings
 ---
-I originaly chose this dataset so that i could perform a Sentiment Analysis on opinions expressed in the review text, to determine viewer's attitude towards the Waze mobile app, but after spending quite some time performing an exploratory data analysis on the data I discovered some very interesting trends and patterns.
+I originaly chose this dataset so that i could perform a Sentiment Analysis on opinions expressed in the review text, this helping me determine viewer's attitude towards the Waze mobile app. After spending quite some time performing an exploratory data analysis on the data I discovered some very interesting trends and patterns.
 
-Based on the waze mobile app dataset we can tell that most of the user reviews were ranked high at rating number 5, in addition to having a very positive overall sentiment.
+Based on the Waze mobile app dataset we can tell that most of the user reviews were ranked high at rating number 5, as well as having a very positive overall sentiment.
 
-This is very good news for Management and Application Development Teams, but we also need to look at high reviews that fall within rating number 1, especially those categorized within the negative sentiment. This will help us to understand what the pain points are and what can be done to fix the issue in next releases.
+These stats are very impressive for the Management Team, but they must also understand the reviews which fall within rating number 1, those having high negative sentiments.
+
+Knowing this will enable the company to respond quicker at developing patches and rolling them out in a timely fashion in new releases. In this manner the higher ratings and sentiments always outnumber the lower ones.
 
 In regards to user reviews ranked within rating number 1, 31% (17,758) of these are categorized as having a negative sentiment.
 
@@ -221,15 +223,15 @@ Of those categorized as negative, 38% (7,326) of these were placed in 2021 with 
 
 If you look at the data from the negative sentiments point of you, 6% (38,851) of all user reviews were categorized as negative.
 
-Of those negatively categorized, year 2021 had the most user reviews than any other year by 21% (8,182), with approximately 52% (4,244) of the users being on app version 4.73.0.3.  
+Of those categorized as negative, the year 2021 had the most user reviews than any other year by 21% (8,182), with approximately 52% (4,244) of the users being on app version 4.73.0.3.  
 
-So, as you can see 2021 was the year which had the most reviews categorized as negative, with more than 50% of the users being on app version 4.73.0.3 (released on April 6, 2021). What exactly were the major issues affecting this app version?
+So, as you can see 2021 was the year which had the most reviews categorized as negative, with more than 50% of the users being on app version 4.73.0.3. What exactly were the major issues affecting this app version?
 
-if I were to read each negative review I would most likely get an indepth understanding, but instead i chose to gauge the count of negative reviews captured starting with 4.73.0.3 all the way up to the latest release version.
+It was not possible for me to try and read through roughly 4,000 reviews for app verion 4.73.0.3, but instead i chose to analyze the trend of negative reviews captured starting with 4.73.0.3 all the way up to the latest release being 4.99.1.1.
 
 If you look at the app versions report; Figure 1, you will see that as newer releases came out the count of negative sentiments decreased over time; with an occasional up and down fluctuation.
 
-Management has paid close attention to many of the user concerns and resolved a majority of them over time within newer releases.
+You can surmise that management has paid close attention to many of the user concerns and resolved a large portion of them over time.
 
 In the end, the folks at Waze were able to respond quickly to these complaints, resulting in their most recent reviews ranking high at number 5 and having a very positive sentiment overall.
 
