@@ -42,14 +42,15 @@ I am also using website uptodown.com for verification of dates each Waze author 
 
 # App Review Sentiments Analysis
 ---
+
 ### Lets first explore the dataset by analyzing the distribution of ratings. It will provide insight into the overall sentiment of the reviews.<br>
----
+
+![dist1](https://github.com/user-attachments/assets/74e2637e-6bd9-46f4-9320-099fdc453dd1)
 ![ratings](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/f9439489-43fb-4538-a572-51aaec3152e2)
 
 
-
-### As you can see, the above distribution of ratings chart gives us a clear picture of how many reviews fall into each rating category (from 1 to 5).
-
+### As you can see, the above distribution of ratings chart gives us a clear picture of how many reviews fall within each rating category.
+---
 ### The next step is to label the data with sentiments. We can use Textblob for this task.
 
  >note: TextBlob provides a polarity score ranging from -1 (very negative) to 1 (very positive) for a given text. We can use this score to classify each review’s sentiment as positive, neutral, or negative.
@@ -57,26 +58,25 @@ I am also using website uptodown.com for verification of dates each Waze author 
 ![app_review](https://github.com/user-attachments/assets/e4daa9d6-c1de-42f4-bcf8-b42b3788dc96)
 
 
-
-
-### The dataset now includes sentiment labels for each review, classified as Positive, Negative, or Neutral based on the polarity score calculated by TextBlob.
+### The dataset now includes sentiment labels for each review classified as positive, negative, or neutral based on the polarity score calculated by TextBlob.
+---
 
 ### Lets now explore this dataset by analyzing the distribution of sentiments. It will give us a basic understanding of the general sentiment tendency in the reviews.<br>
----
+
+![sent1](https://github.com/user-attachments/assets/92e5f57f-a53f-47c5-a326-2dccaf72bd5a)
 ![sents](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/3ec64920-1b98-4930-80a5-fd531573d960)
 
-
 ### In addition to the app having high ratings, reviewers also had many positive words in the reviews for the app.
-
-### Lets now explore the relationship between the sentiments and the ratings. This analysis can help us understand whether there is a correlation between the sentiment of the text and the numerical rating. For this task, we can see how sentiments are distributed across different rating levels.
 ---
+### Lets now explore the relationship between the sentiments and the ratings. This analysis can help us understand whether there is a correlation between the sentiment of the text and the numerical rating. For this task, we can see how sentiments are distributed across different rating levels.
+
+![sent_dist](https://github.com/user-attachments/assets/7d68131c-7818-43ca-be74-c18932084045)
 ![sentsbyrate](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/a6544ea5-6e82-470a-b262-3c0c349ce86c)
 
-
-### As you can see, most of the positive reviews fall within rating number 5 and most of the negative reviews fall within rating number 1. So there is a correlation between the sentiment of the text and the numerical rating.
-
-### Let’s perform a text analysis of the dataset to identify common words or themes within each sentiment category.
+### As you can see, most of the positive reviews fall within rating number 5 while most of the negative reviews fall within rating number 1. So there is a correlation between the sentiment of the text and the numerical rating.
 ---
+### Let’s finally perform a text analysis of the dataset to identify common words or themes within each sentiment category.
+
 ![textblobpos](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/4a2dd42a-76b5-459b-9570-de83e1d9464c)
 ![textblobneg](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/a25e0aa7-4cee-486a-8701-1dab73f319d0)
 ![textblobneu](https://github.com/KHard2Bme/Waze_Review_Sentiment_Analysis/assets/146769989/e1ce06f4-ff81-4b02-84cb-0d714f9f960c)
