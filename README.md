@@ -223,9 +223,9 @@ If you look at the data from the negative sentiments point of you, 6% (38,851) o
 
 Of those negatively categorized, year 2021 had the most user reviews than any other year by 21% (8,182), with approximately 52% (4,244) of the users being on app version 4.73.0.3.  
 
-So, as you can see 2021 was the year which had the most reviews categorized as negative, with more than 50% of the users being on app version 4.73.0.3 (released on April 6, 2021). What exactly were the major issues affecting this app?
+So, as you can see 2021 was the year which had the most reviews categorized as negative, with more than 50% of the users being on app version 4.73.0.3 (released on April 6, 2021). What exactly were the major issues affecting this app version?
 
-if I were to read each negative review pertaining to app version 4.73.0.3 I would most likely understand each issue plaguing users, but instead i chose to gauge the count of negative reviews captured from all newly released versions.
+if I were to read each negative review I would most likely get an indepth understanding, but instead i chose to gauge the count of negative reviews captured starting with 4.73.0.3 all the way up to the latest release version.
 
 If you look at the app versions report; Figure 1, you will see that as newer releases came out the count of negative sentiments decreased over time; with an occasional up and down fluctuation.
 
